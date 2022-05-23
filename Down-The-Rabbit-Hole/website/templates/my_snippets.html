@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %} My Snippets {% endblock %} 
+
+{% block content %}
+
+<body background="{{ url_for('static', filename='mysnippet.jpg') }}"> 
+
+<h1 align="center" style="color: white;">My Snippets</h1>
+
+{% for snippet in snippets %}
+    <div class="card2" style="width:700px; margin-top: 2vw;">
+        <div class="container2">
+            <p class="info-text" style="text-align: center; color: white;">{{ snippet.snipText }}</p>
+        </div>
+        <p class="source-of-info"></p>
+    </div>
+    <br>
+{% endfor %}
+
+<a href="/info">Make more snippets!</a>
+
+
+{% endblock %}

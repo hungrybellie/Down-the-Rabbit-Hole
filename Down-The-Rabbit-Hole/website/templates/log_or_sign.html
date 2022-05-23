@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Sign In{% endblock %}
+
+{% block content %}
+
+<img src="{{ url_for('static', filename='log_or_sign_page.jpg') }}" usemap="#image-map" height="100%" alt="sign in or sign up page with two rabbits as the buttons">
+<map name="image-map">
+    <area alt="Sign In" title="Sign In" href="/sign-in" coords="119,206,444,660" shape="rect">
+    <area alt="Sign Up" title="Sign Up" href="/sign-up" coords="959,190,1291,655" shape="rect">
+</map>
+
+{% endblock %}

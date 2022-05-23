@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+<!-- TODO make the nameOfPage with if/else depending on which page the user clicks-->
+{% block title %} {{ nameOfPage }} {% endblock %} 
+
+{% block content %}
+
+<body id="info-body"></body>
+
+    {% for info in all_information %}
+    <div class="card" style="width:700px; left: 40%; margin-top: 2vw; overflow: scroll;">
+        <div class="container">
+            <p class="info-text" style="text-align: center;"> {{ info }}</p>
+        </div>
+        <p class="source-of-info"></p>
+        <form method="POST">
+            <div class="form" align="left" width="5vw">
+                <input 
+                    type="text" 
+                    class="snip_text" 
+                    id="snip_text" 
+                    name="snip_text" 
+                />
+            </div>
+            <button id="snip-button" type="submit">Snip It</button>
+        </form>
+    </div>
+    <br>
+    {% endfor %}
+
+
+
+<a href="/my-snippets" style="font-family: 'Shadows Into Light Two', cursive;">Go to My Snippets Page</a>
+
+{% endblock %}

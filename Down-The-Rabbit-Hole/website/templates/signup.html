@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Sign Up{% endblock %}
+
+
+{% block content %}
+
+<body id="sign_up_body" background="{{ url_for('static', filename='sign_up_page.jpg') }}"> 
+
+    <form method="POST">
+        <div class="form">
+            <input 
+                style="position:fixed;top:20%;left:33%;"
+                type="text" 
+                class="sp-input" 
+                id="username" 
+                name="username" 
+            />
+            <br>
+            <input 
+                style="position:fixed;top:36%;left:36%;"
+                type="email" 
+                class="sp-input" 
+                id="email" 
+                name="email" 
+            />
+            <br>
+            <input 
+                style="position:fixed;top:55%;left:32.5%;"
+                type="password" 
+                class="sp-input" 
+                id="password1" 
+                name="password1" 
+            />
+            <br>
+            <input 
+                style="position:fixed;top:71%;left:35.5%;"
+                type="password" 
+                class="sp-input" 
+                id="password2" 
+                name="password2" 
+            />
+        </div>
+        <button id="sp-button" type="submit"></button>
+    </form>
+
+</body>
+
+{% endblock %}

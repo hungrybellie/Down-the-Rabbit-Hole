@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Sign In{% endblock %}
+
+{% block content %}
+<body id="sign_in_body" background="{{ url_for('static', filename='sign_in_page.jpg') }}"> 
+
+    <form method="POST">
+        <div class="form">
+            <input 
+                type="text" 
+                class="sn-input" 
+                id="username" 
+                name="username" 
+            />
+            <br>
+            <input 
+                type="password" 
+                class="sn-input" 
+                id="password" 
+                name="password" 
+            />
+        </div>
+        <button id="sn-button" type="submit"></button>
+    </form>
+
+</body>
+
+{% endblock %}

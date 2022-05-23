@@ -1,0 +1,190 @@
+/* -------------------------------------------------------------------------- */
+/* FOR ALL PAGES */
+
+html {
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOR MESSAGE.HTML */
+
+#message {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: lighter;
+    letter-spacing: 1vw; 
+    font-size: 600%;
+    padding-top: 50vw;
+    position: relative;
+    width: 30em;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%); 
+    color: white;  
+    text-align: center;
+}
+
+.type{
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+}
+  
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 14em;}
+}
+
+@keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOR LANDING.HTML */
+
+#downy {
+    width: 80%; 
+    height: auto;
+    padding-left: 23vw;
+    padding-top: 20vw;
+}
+
+#landing_body {
+    background-size: 1440px 800px; 
+    background-repeat: no-repeat;
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOR SIGN_IN.HTML */
+
+.sn-input {
+    width: 575px;
+    height: 50px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:initial;
+    background-color: transparent;
+    font-size: 2vw;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: bold;
+    letter-spacing: 1vw;
+}
+
+#username {
+    position: fixed;
+    top: 23.5%;
+    left: 29%;
+}
+
+#password {
+    position: fixed;
+    top: 43%;
+    left: 37%;
+}
+
+#sn-button {
+    width: 250px;
+    height: 75px;
+    position: fixed;
+    top: 83%;
+    left: 42%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: initial;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------------------------------------- */
+/* FOR SIGNUP.HTML */
+
+.sp-input {
+    width: 450px;
+    height: 50px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style:initial;
+    background-color: transparent;
+    font-size: 2vw;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: bold;
+    letter-spacing: 1vw;
+}
+
+#sp-button {
+    width: 140px;
+    height: 62px;
+    position: fixed;
+    top: 91%;
+    left: 46%;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: initial;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOR WELCOME.HTML */
+
+#bg_vid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+
+/* -------------------------------------------------------------------------- */
+/* FOR OPTIONS.HTML */
+
+.options_img{
+    position: fixed;
+    padding-right: 400px;
+    margin-left: 0%;
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOR INFO.HTML */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+#info-body {
+    overflow: auto;
+}
+  
+.container {
+    padding: 2px 16px;
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOR MY_SNIPPETS.HTML */
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+
+#info-body {
+    overflow: auto;
+}
+  
+.container2 {
+    padding: 2px 16px;
+}
+    

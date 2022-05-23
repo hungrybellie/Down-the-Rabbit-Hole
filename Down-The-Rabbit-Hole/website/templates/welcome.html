@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block head %}
+<meta http-equiv="refresh" content="6;url=/options" />
+{% endblock %}
+
+{% block title %}Welcome To The Rabbit Hole{% endblock %}
+
+{% block content %}
+    <video autoplay muted id="bg_vid">
+        <source src="{{ url_for('static', filename='new_landing.mp4') }}" type="video/mp4">
+    </video>
+{% endblock %}
