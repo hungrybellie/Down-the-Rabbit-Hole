@@ -61,7 +61,7 @@ We were worried about our project meeting the judges' criteria. Our typical thou
 ### Website by:
 - Sarah Cole [@juzsarah](https://github.com/juzsarah)
 - Amanda Rodriques [@Mandy-cyber](https://github.com/Mandy-cyber)
-- Annabelle Chung [@annabellechung](https://github.com/hungrybellie)
+- Annabelle Chung [@hungrybellie](https://github.com/hungrybellie)
 
 Linkedins:
 - [Sarah Cole](https://www.linkedin.com/in/sarah-cole-8317b01b6/)
