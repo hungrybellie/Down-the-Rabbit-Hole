@@ -57,11 +57,11 @@ Users credentials are stored in a database using a private key. User passwords a
 From the beginning, we were all extremely excited to participate in this hackathon. The possibilities, brewed by iced coffee and late-night video calls, were endless. Down the Rabbit hole was born on the first day, and we instantly began working on it. We struggled with HTML formatting, image dimensions (a word that makes us shudder) and more as we continued. Similarly, we realized that two days isn't nearly as much time as we thought. 
 We were worried about our project meeting the judges' criteria. Our typical thoughts of "real-world issues" ranged from solving world hunger and ending poverty, and we chose an untraditional route. However, our purpose is personal to each of us. We all have experienced the addictiveness of the internet and see how it can affect our peers, family and friends. Thus we classify it as a more modern real-world issue, as we see its effects all around us. 
 ## 👏 Contributors
-**All original artwork created by [Annabelle Chung](https://github.com/annabellechung)**
+**All original artwork created by [Annabelle](https://github.com/hungrybellie)**
 ### Website by:
 - Sarah Cole [@juzsarah](https://github.com/juzsarah)
 - Amanda Rodriques [@Mandy-cyber](https://github.com/Mandy-cyber)
-- Annabelle Chung [@annabellechung](https://github.com/annabellechung)
+- Annabelle Chung [@annabellechung](https://github.com/hungrybellie)
 
 Linkedins:
 - [Sarah Cole](https://www.linkedin.com/in/sarah-cole-8317b01b6/)
