@@ -66,7 +66,7 @@ We were worried about our project meeting the judges' criteria. Our typical thou
 Linkedins:
 - [Sarah Cole](https://www.linkedin.com/in/sarah-cole-8317b01b6/)
 - [Amanda Rodriques](https://www.linkedin.com/in/amanda-rodriques-725613217/)
-- [Annabelle Chung](https://www.linkedin.com/in/annabelle-chung-57a040204/)
+- [Annabelle Chung](https://www.linkedin.com/in/annabelle-c-2ba49327b/)
 
 ![Down-The-Rabbit-Hole-Team](https://github.com/Mandy-cyber/Down-The-Rabbit-Hole/blob/main/collaborators.jpeg)
 ## 🔐License
